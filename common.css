@@ -15,7 +15,7 @@ html, body {
     height: 100%;
 }
 
-.aside__left, .aside__right, .up__bar, .down__bar {
+.aside__left, .aside__right, .up__bar, .down__bar, .main {
     padding: 20px;    
 }
 
@@ -78,8 +78,8 @@ html, body {
     padding: 15px 10px;
 }
 .header__1-inner {
-    width: 10%;
-    height: 20px;
+    width: 150px;
+    height: 50px;
     text-align: center;
     color: white;
     float: left;
@@ -90,7 +90,6 @@ html, body {
 }
 .basic {
     height: 50px;
-    width: 90%;
     background-color: #1f2021;
     float: left;
 }

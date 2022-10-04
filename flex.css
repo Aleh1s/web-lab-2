@@ -116,7 +116,7 @@
     flex-direction: column;
 }
 
-.content__up-bar, .content__down-bar, .body__aside, .content__aside {
+.content__up-bar, .content__down-bar, .body__aside, .content__aside, .content__main {
     padding: 20px;
 }
 

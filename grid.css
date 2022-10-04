@@ -9,7 +9,7 @@
     min-height: 100%;
     display: grid;
     grid-template-rows: minmax(80px, auto) minmax(30px, auto) 1fr minmax(30px, auto) minmax(80px, auto);
-    grid-template-columns: 200px auto 200px;
+    grid-template-columns: 200px calc(100% - 400px) 200px;
     grid-template-areas:
      "header header header"
      "left-aside up-bar up-bar"
@@ -18,7 +18,7 @@
      "footer footer footer";
 }
 
-.left-aside, .right-aside, .up-bar, .down-bar {
+.left-aside, .right-aside, .up-bar, .down-bar, .content {
     padding: 20px;
 }
 
