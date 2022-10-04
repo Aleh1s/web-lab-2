@@ -5,13 +5,77 @@
     box-sizing: border-box;
     font-family: 'Edu VIC WA NT Beginner', serif;
 }
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: 100%;
+}
+
+.aside__left, .aside__right, .up__bar, .down__bar {
+    padding: 20px;    
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+}
+
+.aside__left {
+    min-height: calc(100% - 160px);
+    max-height: fit-content;
+    width: 200px;
+    float: left;
+}
+
+.up__bar {
+    min-height: 50px;
+    max-height: fit-content;
+    width: calc(100% - 200px);
+    float: left;
+}
+
+.main__down__bar {
+    min-height: calc(100% - 210px);
+    max-height: fit-content;
+    width: calc(100% - 400px);
+    float: left;
+}
+
+.main {
+    min-height: calc(100% - 260px);
+    max-height: fit-content;
+    width: 100%;
+    float: left;
+}
+
+.down__bar {
+    min-height: 50px;
+    max-height: fit-content;
+    width: 100%;
+    float: left;
+}
+
+.aside__right {
+    min-height: calc(100% - 210px);
+    max-height: fit-content;
+    width: 200px;
+    float: left;
+}
+
+.footer {
+    height: 80px;
+    width: 100%;
+    float: left;
+}
+
 .header__1 {
     height: 80px;
     background-color: #1f2021;
     padding: 15px 10px;
-}
-.wrapper {
-    height: 100%;
 }
 .header__1-inner {
     width: 10%;
@@ -55,35 +119,6 @@
 .home-link {
     font-size: 25px;
 }
-.main__1, .main__3, .main__2, .main__5, .main__6 {
-    padding: 20px;
-}
-.main__2 {
-    width: 15%;
-    float: left;
-    
-}
-.main-group-3-4-5-6 {
-    width: 85%;
-    float: left;
-}
-.main__3 {
-    width: 100%;
-}
-.main-group-4-6 {
-    width: 80%;
-    float: left;
-}
-.main__5 {
-    width: 20%;
-    float: left;
-}
-.main__6 {
-    width: 100%;
-}
-.footer {
-    width: 100%;
-}
 .footer__7 {
     background-color: #1f2021;
     height: 80px;
@@ -114,21 +149,4 @@
 .picture img {
     max-width: 100%;
     height: auto;
-}
-.row:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-.row { 
-    display: inline-block; 
-}
-* html .row {
-    height: 1%;
-}
-.row {
-    display: block; 
 }
