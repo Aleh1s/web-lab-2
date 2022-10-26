@@ -36,7 +36,7 @@
 
 .header__row {
     display: grid;
-    grid-template: 1fr / 150px repeat(3, 100px);
+    grid-template: 1fr / 150px repeat(4, 100px);
     align-items: center;
 }
 
